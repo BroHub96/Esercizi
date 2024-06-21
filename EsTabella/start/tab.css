@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+table {
+    border-color: #263238;
+    border: 1px;
+    width: 50%;
+}
+
+table caption {
+    color: #263238;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10 px;
+}
+
+table th {
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+}
+
+table tr:nth-child(even){
+    background-color: #eceff1;
+}
+
+table tr:nth-child(odd){
+    background-color: #b0bec5;
+}
+
+table tr:nth-last-child(){
+    font-weight: 800;
+    background-color: #78909c;
+}
+
+table td:nth-child(2){
+    color: #003300;
+    text-align: right;
+}
+
+table td:nth-child(3){
+    color: #7f0000;
+    text-align: right;
+}
+
+/*table td{    _---> questo blocco lo si può inserire se si vuole anche la prima colonna della tabella allineata a destra
+    text-align: right; 
+}*/
