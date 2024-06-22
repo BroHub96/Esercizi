@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    background-color: black;
+    width: 200px;
+    height: fit-content;
+    flex-direction: row;
+}
+
+div.main{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    gap:2rem;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:lightblue;
+}
+
+a:visited{
+    color: red;
+}
+
+div.secondary{
+    margin:0;
+    display: flex;
+    background-color: black;
+    padding-left: 50%;
+}
+
+.src-btn:hover{
+    background-color: green;
+    color: white;
+}
