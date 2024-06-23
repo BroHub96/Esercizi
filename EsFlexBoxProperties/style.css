@@ -1,0 +1,54 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: flex;
+  float: left;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  flex-direction: column;
+  background-color: #8ffda7;
+  order: 3;
+}
+
+#orange {
+  flex-direction: column;
+  flex: 2 20%;
+  background-color: #ffc788;
+  order: 4;
+}
+
+#yellow {
+  flex-direction:column;
+  background-color: #ffff92;
+  order: 1;
+}
+
+#red {
+  flex-direction: column;
+  background-color: #ff919c;
+  order: 2;
+}
+
+#blue {
+  flex-direction: column;
+  background-color: #98d2ff;
+  order: 5;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  flex-direction: column;
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
