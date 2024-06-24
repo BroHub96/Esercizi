@@ -1,22 +1,44 @@
 nav{
     display: flex;
-    background-color: black;
-    width: 200px;
-    height: fit-content;
-    flex-direction: row;
+    background-color: rgb(36, 36, 70);
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-div.main{
+.title{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
     display: flex;
-    background-color: black;
-    flex-direction: row;
-    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
 }
 
 a{
-    color: white;
+    color: rgb(206, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
+.button-dropdown{
+    color: whitesmoke;
+}
+
+.button-dropdown:hover{
+    color:lightblue
+}
+
+.btn{
+    border: none;
+    color: rgb(206, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 a:hover{
     color:lightblue;
 }
@@ -26,10 +48,18 @@ a:visited{
 }
 
 div.secondary{
-    margin:0;
     display: flex;
+    align-items: 100%;
+    height: 100%;
+    gap: 0.5rem;
+}
+
+.src-btn{
+    border: 1px solid green;
     background-color: black;
-    padding-left: 50%;
+    color: green;
+    border-radius: 5px;
+    margin-right: 30px;
 }
 
 .src-btn:hover{
