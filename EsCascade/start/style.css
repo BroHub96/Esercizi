@@ -7,6 +7,10 @@ blockquote {
   background-color: rgba(0, 12, 24, 0.05)
 }
 
+.content1 p{
+  border: 1px solid black;
+}
+
 a {
   border: 1px dashed red;
 }
@@ -19,7 +23,7 @@ em {
   background-color: greenyellow;
   color: black;
   font-weight: bold;
-  font-style: initial;
+  font-style: inherit;
 }
 
 ul {
